@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cakes 3000 - Les meilleurs gâteaux près de chez vous</title>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Google Font -->
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Kreon:300,400,700' />
+
+    <!-- Fichiers CSS à charger (toujours Bootstrap avant main.css) -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#menu" data-bs-offset="120">
+
+    <header>
+        <nav id="menu" class="navbar navbar-expand-lg navbar-dark fixed-top">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">Cakes 3000</a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                    aria-controls="menu" aria-expanded="false" aria-label="Afficher le menu de navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div id="navbarContent" class="navbar-collapse collapse">
+
+                    <ul class="nav navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#story">Qui sommes nous ?</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#facts">Quelques chiffres</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#food-menu">Notre carte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#special-offers">Nos menus</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#reservation">Réservation</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Bruce :) -->
+        <div class="banner">
+            <div class="banner-title">
+                <h1>Cakes 3000</h1>
+            </div>
+            <div class="banner-subtitle">
+                <h2>Les meilleurs gâteaux près de chez vous</h2>
+            </div>
+        </div>
+        <div class="bottom text-center">
+            <a id="scrollDownArrow" href="#story">
+                <i class="fa fa-chevron-down"></i>
+            </a>
+        </div>
+    </header>
+
+    <main>
+        <div id="story" class="light-wrapper">
+            <div class="container inner">
+                <h2 class="section-title text-center">Qui sommes nous ?</h2>
+                <p class="lead main text-center">Notre mot d'ordre : des produits de qualité pour des gâteaux réussis
+                </p>
+                <div class="row text-center story">
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa fa-map-marker"></i>
+                            </div>
+                            <h3>Produits locaux</h3>
+                            <p>Vivamus sagittis lacuson augue laoreet rutrum faucibus dolor auctor. Cras mattis
+                                consectetur purus sit amet fermentum ultricies vehicula.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa fa-lemon-o"></i>
+                            </div>
+                            <h3>Tradition</h3>
+                            <p>Nullam id dolor id nibh ultricies vehicula ut id elit. Cum sociis natoque penatibus et
+                                magnis dis parturient monte nascetur ultricies vehicula.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-wrapper">
+                                <i class="fa fa-check-square-o"></i>
+                            </div>
+                            <h3>Qualité</h3>
+                            <p>Curabitur blandit matti tempus porttitor. Donec id elit non mi porta ut gravida at eget
+                                metus. Consectetur adipiscing elit ultricies vehicula.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="facts" class="parallax parallax-facts">
+            <div class="container inner">
+                <div class="row text-center">
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-border mb-2">
+                                <i class="fa fa-coffee"></i>
+                            </div>
+                            <h4>1518</h4>
+                            <p>Boissons chaudes servies</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-border mb-2">
+                                <i class="fa fa-heart"></i>
+                            </div>
+                            <h4>906</h4>
+                            <p>Gâteaux réalisés avec amour</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-border mb-2">
+                                <i class="fa fa-cutlery"></i>
+                            </div>
+                            <h4>2764</h4>
+                            <p>Parts de gâteaux servies</p>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="col-wrapper">
+                            <div class="icon-border mb-2">
+                                <i class="fa fa-users"></i>
+                            </div>
+                            <h4>723</h4>
+                            <p>Nouvelles rencontres</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="food-menu" class="light-wrapper">
+            <div class="container inner">
+                <h2 class="section-title text-center">Notre carte</h2>
+                <p class="lead main text-center">Faites votre choix !</p>
+
+                <div class="row">
+                    <div class="col-sm">
+                        <div class="menu-images">
+                            <img src="img/carte/hot-drinks.png" alt="">
+                        </div>
+                        <div class="menu-titles">
+                            <h3>Boissons chaudes</h3>
+                        </div>
+                        <div class="menu-items">
+                            <ul>
+                                <li>Espresso</li>
+                                <li>Café long</li>
+                                <li>Lait russe</li>
+                                <li>Chocolat chaud</li>
+                                <li>Thé à la menthe</li>
+                                <li>Thé 5 fruits rouges</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="menu-images">
+                            <img src="img/carte/ice-drinks.png" alt="">
+                        </div>
+                        <div class="menu-titles">
+                            <h3>Boissons fraîches</h3>
+                        </div>
+                        <div class="menu-items">
+                            <ul>
+                                <li>Café glacé</li>
+                                <li>Ice Tea</li>
+                                <li>Coca Cola</li>
+                                <li>Fanta</li>
+                                <li>Diabolo</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <div class="menu-images">
+                            <img src="img/carte/cakes.png" alt="">
+                        </div>
+                        <div class="menu-titles">
+                            <h3>Gâteaux</h3>
+                        </div>
+                        <div class="menu-items">
+                            <ul>
+                                <li>Cheesecake Oreo</li>
+                                <li>Cheesecake Citron</li>
+                                <li>Muffins</li>
+                                <li>Cookies</li>
+                                <li>Fondant au chocolat</li>
+                                <li>Tarte citron meringué</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="special-offers" class="parallax pricing">
+            <div class="container inner">
+
+                <h2 class="section-title text-center">Menus</h2>
+                <p class="lead main text-center">Pas la peine de se priver...</p>
+
+                <div class="row">
+                    <div class="col-lg-6">
+
+                        <div class="pricing-item">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img class="w-100 img-thumbnail" src="img/menu/cheesecake-speculoos.jpg" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <div class="pricing-item-details">
+
+                                        <h3>Menu cheesecake</h3>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.</p>
+
+                                        <a class="btn btn-danger" href="#">Plus d'infos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tag de prix -->
+                            <span class="price-tag bg-brown">6€90</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="pricing-item">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img class="w-100 img-thumbnail" src="img/menu/muffin-myrtille.jpg" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <div class="pricing-item-details">
+
+                                        <h3>Menu muffins</h3>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.</p>
+
+                                        <a class="btn btn-danger" href="#">Plus d'infos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tag de prix -->
+                            <span class="price-tag bg-blue">5€90</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="pricing-item">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img class="w-100 img-thumbnail" src="img/menu/cookies-chocolat.jpg" alt="">
+                                </div>
+
+                                <div class="col-7">
+                                    <div class="pricing-item-details">
+
+                                        <h3>Menu cookies</h3>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.</p>
+
+                                        <a class="btn btn-danger" href="#">Plus d'infos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tag de prix -->
+                            <span class="price-tag bg-green">4€90</span>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+
+                        <div class="pricing-item">
+                            <div class="row">
+                                <div class="col-5">
+                                    <img class="w-100 img-thumbnail" src="img/menu/big-menu.jpg" alt="">
+                                </div>
+                                <div class="col-7">
+                                    <div class="pricing-item-details">
+
+                                        <h3>Le Big Menu</h3>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua.</p>
+
+                                        <a class="btn btn-danger" href="#">Plus d'infos</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Tag de prix -->
+                            <span class="price-tag bg-brown">9€90</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div id="reservation" class="light-wrapper">
+            <div class="container inner">
+                <h2 class="section-title text-center">Réservation</h2>
+                <p class="lead main text-center">Il n'y aura pas de place pour tout le monde alors réservez votre place
+                </p>
+                <div class="row justify-content-between">
+                    <div class="col-md-6">
+                        <form method="post" action="">
+                            <div class="form-group">
+                                <h4>Remplissez le formulaire pour votre réservation (tous les champs sont
+                                    obligatoires)
+                                </h4>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md form-group">
+                                    <label class="visually-hidden" for="firstname">prénom</label>
+                                    <input class="form-control" type="text" id="firstname" name="firstname"
+                                        placeholder="Prénom" required />
+                                </div>
+                                <div class="col-md form-group">
+                                    <label class="visually-hidden" for="lastname">nom</label>
+                                    <input class="form-control" type="text" id="lastname" name="lastname"
+                                        placeholder="Nom" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md form-group">
+                                    <label class="visually-hidden" for="email">email</label>
+                                    <input class="form-control" type="email" id="email" name="email" placeholder="Email"
+                                        required />
+                                </div>
+                                <div class="col-md form-group">
+                                    <label class="visually-hidden" for="phone">téléphone</label>
+                                    <input class="form-control" type="text" id="phone" name="phone"
+                                        placeholder="Téléphone" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md form-group">
+                                    <label class="visually-hidden" for="reservation_date">jour de réservation</label>
+                                    <input class="form-control" type="text" id="reservation_date"
+                                        name="reservation_date" placeholder="Jour de réservation" required />
+                                </div>
+                                <div class="col-md form-group">
+                                    <label class="visually-hidden" for="number_guests">nombre de personnes</label>
+                                    <input class="form-control" type="text" id="number_guests" name="number_guests"
+                                        placeholder="Nombre de personnes" required />
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md">
+                                    <button type="submit" class="btn btn-danger btn-lg">Je réserve</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+
+                        <h3><i class="fa fa-clock-o fa-fw"></i>Horaires</h3>
+                        <h4>Petit dej'</h4>
+                        <p>Lun au Ven: 11h-11h30</p>
+                        <h4>Goûter</h4>
+                        <p>Lun au Ven: 15h30-16h</p>
+
+                        <h3><i class="fa fa-map-marker fa-fw"></i>Adresse</h3>
+                        <p>Rue Denis Papin - 59650 Villeneuve d'Ascq</p>
+
+                        <h3><i class="fa fa-mobile fa-fw"></i>Contact</h3>
+                        <p>Email: <a href="mailto:cooking@cakes3000.fr">cooking@cakes3000.fr</a></p>
+                        <p>Tél: 0123456789</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="dark-wrapper">
+        <div class="container inner">
+            <div class="row">
+                <div class="col-sm">
+                    &copy; Copyright Cakes 3000
+                </div>
+                <div class="col-sm">
+                    <div class="social-bar">
+                        <a href="#" class="fa fa-instagram tooltipped" title=""></a>
+                        <a href="#" class="fa fa-youtube-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-facebook-square tooltipped" title=""></a>
+                        <a href="#" class="fa fa-pinterest-square tooltipped" title=""></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

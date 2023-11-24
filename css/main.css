@@ -1,0 +1,320 @@
+/**********
+Reset 
+*/
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Kreon", serif;
+    font-size: 1.6rem;
+}
+
+
+/* Hide the menu when the checkbox is not checked */
+
+
+/* Show the menu when the checkbox is checked */
+#menuToggle:checked+label+#menuList {
+    display: block;
+}
+
+#menuToggle:checked~#dropdownMenu {
+    display: block !important;
+}
+
+/************
+Navigation 
+*/
+#menu {
+    background: rgba(33, 45, 57, 0.8);
+}
+
+.navbar-brand {
+    margin-top: 0;
+    font-weight: bold;
+    font-size: 3.2rem;
+    color: white;
+    padding-top: 0.8rem;
+    padding-bottom: 0;
+}
+
+.navbar-dark .navbar-nav>li>a {
+    transition: all 0.4s;
+    color: white;
+    font-weight: bold;
+    line-height: 2.5;
+}
+
+li.nav-item {
+    margin: 0 1rem;
+}
+
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link,
+.navbar-dark .navbar-nav .nav-link:focus,
+.navbar-dark .navbar-nav .nav-link:hover {
+    background: #3e2c0a;
+    text-shadow: none;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+/**********
+Header 
+*/
+header {
+    background-image: url("../img/pexels-photo-132694.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+
+    position: relative;
+}
+
+header .slogan {
+    font-size: 2.6rem;
+    text-transform: uppercase;
+}
+
+header .banner {
+    text-align: center;
+}
+
+header .banner-title h1 {
+    font-size: 10rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: inline-block;
+    background: #3e2c0a;
+    padding: 0 1.8rem;
+}
+
+header .banner-subtitle h2 {
+    display: inline-block;
+    background: white;
+    color: #3e2c0a;
+    font-size: 3.8rem;
+    padding: 0 1.5rem;
+}
+
+header .bottom {
+    position: absolute;
+    bottom: 3rem;
+}
+
+header .bottom a {
+    font-size: 3.6rem;
+    color: whitesmoke;
+}
+
+@media (max-width: 767px) {
+    header .banner-title h1 {
+        font-size: 6rem;
+    }
+
+    header .banner-subtitle h2 {
+        font-size: 2.2rem;
+    }
+}
+
+.parallax {
+    background-image: url("../img/pexels-photo-24553.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #fff;
+}
+
+.parallax h2,
+.parallax h4,
+.parallax p,
+.parallax i {
+    text-shadow: #444343 1px 1px;
+}
+
+
+/******
+Carte 
+*/
+.menu-items {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.menu-titles h3 {
+    font-size: 2rem;
+    text-shadow: none;
+    color: #3e2c0a;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#food-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu-images img {
+    border-radius: 1rem;
+    border: 0.5rem solid #dadada;
+    display: block;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+/******
+Menu
+*/
+.pricing .pricing-item {
+    position: relative;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+.pricing .pricing-item img {
+    max-width: 250px;
+}
+
+.pricing-item-details a,
+.pricing-item-details p,
+.pricing .lead {
+    color: white;
+    font-weight: bold;
+}
+
+.pricing .pricing-item .pricing-item-details {
+    margin-left: 1rem;
+}
+
+.pricing .pricing-item .pricing-item-details h3 {
+    margin-top: 0;
+    margin-bottom: 0.8rem;
+    font-size: 2.2rem;
+}
+
+.pricing .pricing-item .pricing-item-details p {
+    text-shadow: #444343 1px 1px;
+}
+
+.pricing .pricing-item .pricing-item-details a.btn {
+    margin-top: 10px;
+    font-size: 1.6rem;
+}
+
+.pricing .pricing-item .pricing-item-details a.view-link {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 1.2rem;
+    border-bottom: 1px dotted #aeaeae;
+}
+
+#special-offers .inner {
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/**
+Tag de prix
+*/
+.price-tag {
+    position: absolute;
+    top: -1.5rem;
+    left: -1.5rem;
+    width: 6.5rem;
+    height: 6.5rem;
+    line-height: 5.5rem;
+    text-align: center;
+    font-size: 2.3rem;
+    font-weight: 700;
+    border: 4px solid white;
+    color: #fff;
+    border-radius: 50%;
+}
+
+.bg-brown {
+    background-color: #3e2c0a;
+}
+
+.bg-blue {
+    background-color: #32c8de;
+}
+
+.bg-green {
+    background-color: #51d466;
+}
+
+/************
+Reservation 
+*/
+#reservation form {
+    margin-bottom: 4rem;
+}
+
+.form-group {
+    margin-bottom: 2.4rem;
+}
+
+.form-control {
+    height: 3.8rem;
+    font-size: 1.4rem;
+    background-color: transparent;
+    border-radius: 2px;
+}
+
+.form p {
+    margin: 10px 0 30px 0;
+}
+
+/******
+Footer 
+*/
+.dark-wrapper {
+    background: #3e2c0a;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.social-bar {
+    width: 100%;
+    text-align: right;
+}
+
+.social-bar a {
+    display: inline-block;
+    margin-right: 1rem;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: #fff;
+    opacity: 1;
+    transition: opacity 350ms;
+}
+
+.social-bar a:hover {
+    opacity: 0.5;
+}
+
+@media (max-width: 767px) {
+    .social-bar {
+        text-align: left;
+        margin-top: 3rem;
+    }
+}
